@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-  get "/products" => "products#computer"
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  get "/products" => "products#index"
+  get "/product/:id" => "products#show"
 end

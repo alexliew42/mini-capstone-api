@@ -3,7 +3,7 @@
 #
 # Examples:
 #
-product = Product.new(name: "Computer", price: 500, image_url: "asidnianfg102", description: "A mechanical brain")
+product = Product.new(name: "Baseball", price: 5, image_url: "sdgaodognngniansd122", description: "A ball used to play Baseball")
 product.save
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
