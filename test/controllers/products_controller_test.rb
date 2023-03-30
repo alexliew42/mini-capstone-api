@@ -10,7 +10,7 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
   end
   
   test "show" do
-    get "/product/#{Product.first.id}.json"
+    get "/products/#{Product.first.id}.json"
     assert_response 200
   
     data = JSON.parse(response.body)
