@@ -1,4 +1,5 @@
 class Product < ApplicationRecord
+  belongs_to :supplier
   validates :name, presence: true, uniqueness: true
   validates :description, length: {in: 5..300}
 
@@ -19,4 +20,6 @@ class Product < ApplicationRecord
     total = tax + price
     return total
   end
+
+
 end
