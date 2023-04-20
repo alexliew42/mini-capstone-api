@@ -10,7 +10,8 @@ json.updated_at product.updated_at
 json.is_discounted? product.is_discounted?
 json.tax product.tax
 json.total product.total
-json.images product.images
+# json.images product.images
+json.categories product.categories
 
 
 
